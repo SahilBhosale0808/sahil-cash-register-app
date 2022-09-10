@@ -1,5 +1,78 @@
+body{
+   background-color:#DAE9F5;
+}
+
 .container{
-    display: flex;
+
+    display:flex;
+    justify-content: center;
     flex-direction: column;
-    width: 50vw;
+    background-color:#ADD9F7;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 0;
+    padding: 30px;
+
+}
+
+.heading{
+    color: #4460A7;
+}
+.description{
+    color: #4460A7;
+    font-size: large;
+    font-weight: bolder;
+}
+
+label{
+    color: #4460A7;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#bill-amount{
+    align-self: center;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #4460A7;
+}
+
+#cash-given{
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 2px solid #4460A7;
+}
+
+#check-button{
+    align-self: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #4460A7;
+    background-color: #8ac6f4;
+}
+
+td{
+  padding: 0.3rem;
+}
+
+.change-table{
+    border-color: #4460A7;
+    border: 2px solid #4460A7;
+    margin-bottom: 20px;
+}
+
+
+caption{
+    font-size: larger;
+    font-weight: bolder;
+    color: #4460A7;
+    margin-bottom: 10px
 }
