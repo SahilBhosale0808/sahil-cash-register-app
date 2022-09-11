@@ -59,14 +59,16 @@ label{
     background-color: #8ac6f4;
 }
 
-td{
-  padding: 0.3rem;
+td th{
+  border: 1px solid black;
+  text-align: center;
 }
 
 .change-table{
     border-color: #4460A7;
     border: 2px solid #4460A7;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 
