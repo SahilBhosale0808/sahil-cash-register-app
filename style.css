@@ -80,3 +80,25 @@ caption{
     color: #4460A7;
     margin-bottom: 10px
 }
+
+footer a{
+    font-size: large;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+footer{
+   position: fixed;
+  background-color: #368DC5;
+ padding: 1rem;
+ right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
